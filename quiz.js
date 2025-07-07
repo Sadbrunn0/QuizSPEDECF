@@ -32,8 +32,29 @@ const questions = [
       "Somente no Lucro Real"
     ],
     answer: 2
+  },
+  {
+    text: "Qual é a multa por atraso na entrega da ECF para empresas no Lucro Real?",
+    options: [
+      "0,25% por mês do lucro líquido, limitado a 10%",
+      "3% do faturamento total",
+      "R$ 100,00 fixos",
+      "Multa diária de R$ 10,00"
+    ],
+    answer: 0
+  },
+  {
+    text: "O que acontece se a empresa ultrapassar o limite de receita do MEI?",
+    options: [
+      "Continua como MEI normalmente",
+      "Deve recolher impostos extras e pode ser desenquadrada",
+      "Precisa abrir uma nova empresa",
+      "Deixa de pagar INSS"
+    ],
+    answer: 1
   }
 ];
+
 
 let current = 0;
 let score = 0;
