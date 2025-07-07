@@ -42,16 +42,7 @@ const questions = [
       "Multa diária de R$ 10,00"
     ],
     answer: 0
-  },
-  {
-    text: "O que acontece se a empresa ultrapassar o limite de receita do MEI?",
-    options: [
-      "Continua como MEI normalmente",
-      "Deve recolher impostos extras e pode ser desenquadrada",
-      "Precisa abrir uma nova empresa",
-      "Deixa de pagar INSS"
-    ],
-    answer: 1
+  
   }
 ];
 
