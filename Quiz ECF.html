@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz SPED ECF</title>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: auto; padding: 2rem; }
+    .question { margin-bottom: 1.5rem; }
+    .option { display: block; margin-bottom: 0.5rem; cursor: pointer; }
+    #result { font-weight: bold; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>Quiz SPED ECF</h1>
+  <div id="quiz-container"></div>
+  <div id="result"></div>
+  <h2>Ranking</h2>
+  <ul id="ranking-list"></ul>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
